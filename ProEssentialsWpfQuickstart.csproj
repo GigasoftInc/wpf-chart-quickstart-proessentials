@@ -14,4 +14,11 @@
     <PackageReference Include="ProEssentials.Chart.Net80.x64.Wpf" Version="10.*" />
   </ItemGroup>
 
+<Target Name="CopyNativeDll" AfterTargets="Build">
+  <Copy
+    SourceFiles="$(OutDir)runtimes\win7-x64\native\PEGRP64H.DLL"
+    DestinationFolder="$(OutDir)"
+    SkipUnchangedFiles="true" />
+  </Target>
+
 </Project>
