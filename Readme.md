@@ -2,7 +2,7 @@
 
 A minimal, fully working WPF .NET 8 example demonstrating the **Pesgo** (Scientific Graph Object) from [Gigasoft ProEssentials](https://gigasoft.com). Clone, build, run — no configuration required.
 
-![Simple Scientific Graph](https://gigasoft.com/wpf-chart/screenshots/screen100.png)
+![ProEssentials WPF Quick-Start](docs/screen100.png)
 
 ---
 
